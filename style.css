@@ -1,0 +1,159 @@
+html {
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .picQuoteWrapper,
+  .fill2 {
+    display: inline-block;
+    flex-wrap: wrap;
+    min-width: 450px;
+    max-height: 450px;
+    font-size: 14px;
+    border: 2px solid red;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+body {
+  font-family: Lota, sans-serif;
+  width: 100%;
+  margin-top: 0px;
+  margin-right: 0px;
+  /*border: 1px pink solid;*/
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.heading {
+  display: flex;
+  width: 100%;
+  height: 20px;
+  position: relative;
+  right: ;
+  /*border:1px coral solid;*/
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 1px;
+  color: rgb(85, 109, 86);
+}
+
+.back-wrap {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://photos-4.dropbox.com/t/2/AAAAxNPBhaTUZB34CjWH6gk7vpVK8DvA_afpUff73XdexQ/12/476706403/jpeg/32x32/1/_/1/2/5670857.jpg/EIO3rO4DGCwgBygH/MIgy4fiQCbyf2IavLtKkxp8nWcnEnixBpjrUMU51Pn0%2C3of0gRcZapv5KxCpSg8QIsXzqksnHt00lVAFr1IvL2c%2CaHV4RwFCOCjVOkTPrmKdGAiieCx_-8wU5x7dvHxMwWg%2Cf0qxsruIsCHONgufVsnReoXJThhL3T3YPESei9eDOP4%2CK9zAwUIhugJb-95U28buskR1tTxhJwDoz-7mMuikf_o%2CIA8uW9fmUcebdvwucTp8gV6mRZzl4XyuK0z1mhmV7ok%2CK3j9JSG8icSnpMJaxFsRPuZdlLmxSweeCt-QEYX3Ef8%2CdVj0bDfJ14vFlYJ2inxo1-IV4NoJD6FGsTSpnOk_ZpA?size=2048x1536&size_mode=3");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0px;
+  /*background-overflow: hidden;*/
+  z-index: -1;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.font-wrap {
+  margin-top: 80%;
+  /*border:1px solid green;*/
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  right: 65px;
+  text-align: right;
+  font-family: Lato, sans-serif;
+  bottom: 80%;
+  color: white;
+}
+
+.fill1 {
+  display: flex;
+  height: 100px;
+  /* border:solid 1px pink;*/
+}
+
+.picQuoteWrapper {
+  /*border:solid 1px orange;*/
+  display: flex;
+}
+
+
+/*text next to second image box*/
+
+.quote1 {
+/*border: 1px green solid;*/
+  display: flex;
+  position: relative;
+  height: 400px;
+  width: 400px;
+  left: 100%;
+  top: 15%;
+  margin: 50px 100px;
+  padding: 20px;
+  text-align: center;
+  text-align: justify;
+  align-items: center;
+  /*border-left: 4px solid rgb(244, 244, 244);*/
+}
+
+
+/*sliding image box aligned left.*/
+
+.fill2 {
+  display: flex;
+  height: 750px;
+  width: 50%;
+  background-image: url("https://photos-4.dropbox.com/t/2/AADNSU8mcqH_wCJyHiw6lHFpnGxo4KRv4OL_-TZqHCCgSQ/12/476706403/jpeg/32x32/1/_/1/2/5650855.jpg/EIO3rO4DGCsgBygH/LzuHijWED5xvqQrp1Qoh5Y4GUSGLbZST7a27CdXvy6c%2Co9qE8QVzpjyDUT8rxh7IKiqTgPNqndd_rj8DHiJUbtk%2CSQ4y9aPGHoNsTlkXWG3l6Lud-azOBGhYJVgF2EQUKDI%2CuJuPBREiNLPUgCPpK9Um9rqM05upfgFiUtFlneViz2g?size=2048x1536&size_mode=3");
+  background-attachment: fixed;
+  background-position: right;
+  padding: 0px;
+  margin: 20px 60px;
+  /*border:solid 1px coral;*/
+}
+
+.fill3 {
+  display: flex;
+  height: 450px;
+  width: 80%;
+  border: 1px solid rgb(220, 220, 220);
+  margin: 200px auto;
+  padding: 20px;
+  background-color: rgb(230, 230, 230);
+}
+
+.fill3Half {
+  display: flex;
+  height: 450px;
+  width: 80%;
+  border: 1px solid rgb(220, 220, 220);
+  margin: 200px auto;
+  padding: 20px;
+  background-color: rgb(230, 230, 230);
+}
+
+.fill4 {
+  border: 1px solid pink;
+  display: flex;
+  height: 800px;
+  width: 100%;
+  background-image: url("https://photos-3.dropbox.com/t/2/AABR2BNqQ4EZdGFB8WZuX6mheuoRdHp7tpb4zybuju7KjQ/12/476706403/jpeg/32x32/1/_/1/2/5680860.jpg/EIO3rO4DGC0gBygH/Z2Z6KNmyqVCQa7-9gpT7lkNVd5TMyJ5tgBN9ar3Yfgw%2CH7theHf5UW2FPyFpalq7ANS-V4E93i1dtPSd_DX_QzU%2CWHywCRxHYTlPR-m2GJk29_ufRTNR0yhHKJGQQX4Q3R4%2CLvD8u41srA5TvnQJRQ6uTILlCXBQvy8cUhFtcKBrpgA%2ClOhtn-U-M8DuOKC-C6-KNxW7N1LxCOEE7Acz1OD7JJg%2CEFZf8uhZPRoIX56vSDS4dUcdW-m7TU5_7gaXMdMyJWQ%2CtIVB7M-qxjL97L1AB0JOdMctaLAXT7POv1deTJMsKjE%2C-xcOb0RdOvfi0QSxdXxquUQNHJqS4ZSfxoxDcF4YFPo?size=2048x1536&size_mode=3");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0px;
+  position: relative;
+  justify-content: center;
+}
+
+.copy {
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
